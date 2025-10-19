@@ -1,8 +1,39 @@
+# ===== PYTHON / DJANGO =====
 venv/
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
+*.log
+*.sqlite3
+db.sqlite3
 .env
+*.pot
+*.mo
+
+# Django specific
+media/
+staticfiles/
+*.db
+*.bak
+
+# ===== FRONTEND (Vite + Tailwind) =====
 frontend/node_modules/
 frontend/dist/
-.DS_Store
+frontend/.vite/
+frontend/.env
+frontend/.DS_Store
 
+# ===== SYSTEM / EDITOR =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS JUNK =====
+ehthumbs.db
+Icon?
+Desktop.ini
