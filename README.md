@@ -1,2 +1,1 @@
-# warung-rr
-cashier-app 
+# Warung-RR
